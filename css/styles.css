@@ -1,0 +1,143 @@
+#title {
+background-color: aqua;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+
+    font-family: 'Redressed', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.PlayGame-button{
+  margin: 1% 1% 0% 0%;
+}
+.nav-item{
+  padding: 1.5px 1px;
+}
+.avatar-image {
+  transform: rotate(10deg);
+  margin: 7% 0% 8% 0%;
+}
+
+/*media query ng title*/
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .avatar-image{
+  border-radius:  100%;
+  transform: rotate(0deg);
+}
+}
+
+.New {
+  padding: 10rem 0 10rem 0;
+  margin: 2rem;
+  text-align: center;
+}
+.fa-chrome {
+  color: Blue;
+  font-size: 3rem;
+}
+.fa-costumize {
+  color: Blue;
+  font-size: 3rem;
+}
+.fa-costumize:hover {
+  color: Maroon;
+}
+.fa-chrome:hover {
+  color: Maroon;
+}
+
+#testimonials {
+text-align: center;
+background-color: aqua;
+color: White;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 0%;
+  margin: 10px;
+
+}
+
+/* Media Query Testimonials Section  */
+@media (max-width:1028px){
+  #Testimonials {
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+
+/* Media Query Features Section  */
+@media (max-width:1028px){
+  #features {
+    text-align: center;
+  }
+  h2 {
+    font-family: 'Redressed', cursive;
+    font-size: 1.5rem;
+  }
+  p {
+    font-family: 'Lobster', cursive;
+    font-size: 12px;
+  }
+}
+
+#press {
+  background-color: aqua;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 10px 10px 50px;
+}
+/*Price Section*/
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+  .pricing-colunm{
+    padding: 3% 2%;
+  }
+  .Card-Header{
+    background-color: yellow;
+  }
+
+  .card-body{
+    background-color: aqua;
+  }
+  #cta{
+      text-align: center;
+      background-color: aqua;
+      padding: 10% 20% 5% 20%;
+    }
+
+    .download-button {
+      margin: 5% 3% 5% 0%;
+    }
+
+    #footer{
+      text-align: center;
+    }
